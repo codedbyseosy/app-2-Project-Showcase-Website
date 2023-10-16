@@ -9,11 +9,13 @@ with col1:
 
 with col2:
     st.title("Eseose Odion")
-    content = """Introducing Eseose Odion, a dynamic and multifaceted individual at the ripe age of 22.
-    Eseose is a graduate of The University of Sheffield, where she successfully earned a Master of Computer Systems Engineering degree. 
-    But that's just the beginning of her remarkable journey. Eseose is a true polymath, donning the hats of a Python programmer, software engineer, developer, graphic designer, and artist.
-    Currently, she's immersed in the exciting pursuit of building a striking portfolio while honing her programming prowess, all in preparation to dazzle prospective employers with her diverse and innovative skill set.
-    Eseose Odion is undeniably a captivating blend of technical finesse and creative flair, destined for a promising and vibrant career in the world of technology and design.
+    content = """Hello, I'm Eseose Odion, a 22-year-old with a passion for technology and creativity. 
+    I hold a Master's degree in Computer Systems Engineering from The University of Sheffield. 
+    My journey in the tech world has been nothing short of diverse and exciting, as I proudly wear multiple hats – 
+    I'm a Python programmer, a software engineer, a developer, a graphic designer, and an artist. Currently, my focus
+    is on two things: building a captivating portfolio that showcases my creative and technical skills, and sharpening 
+    my programming abilities to present the best version of myself to future employers. I'm on a mission to bring innovation 
+    and artistry together in the world of technology
     """
     st.info(content)
 
