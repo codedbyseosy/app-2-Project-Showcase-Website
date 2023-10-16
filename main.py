@@ -16,3 +16,9 @@ with col2:
     Eseose Odion is undeniably a captivating blend of technical finesse and creative flair, destined for a promising and vibrant career in the world of technology and design.
     """
     st.info(content)
+
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
