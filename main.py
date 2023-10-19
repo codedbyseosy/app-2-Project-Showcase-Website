@@ -26,14 +26,20 @@ Below you can find some of the apps I have built in Python. Feel free to contact
 """
 st.write(content2)
 
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5]) #these are the ratio dimensions of each column, basically their widths
 
 df = pandas.read_csv("data.csv", sep=";") #sep can be omitted if the data in the files are separated by ","
 
 with col3:
     for index, row in df[:10].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"]) #method to add an image to the page
+        st.write(f"[Source Code]({row['url']})")
 
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['url']})")
